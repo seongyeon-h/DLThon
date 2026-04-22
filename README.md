@@ -1,10 +1,4 @@
-# 🚨 DLThon: Threat Dialogue Classification Project
-
-본 프로젝트는 대화의 성격을 **4가지 위협 세부 클래스(협박, 갈취, 직장 내 괴롭힘, 기타 괴롭힘)** 또는 **일반 대화**로 정밀 분류하는 자연어 처리(NLP) 과제입니다. 데이터 중심(Data-Centric) 접근법을 통해 모델의 성능을 극대화하고, 체계적인 실험(Ablation Study)을 통해 최적의 전략을 도출하는 것을 목표로 합니다.
-
----
-
-## 📂 Repository Structure
+# DLThon: Conversation Threat Classification Project
 
 ```text
 DLthon/
@@ -24,6 +18,7 @@ DLthon/
 ├── src/                # 모듈화된 소스 코드 및 유틸리티
 │   └── eda_runner.py   # 헤드리스 환경용 EDA 분석 실행 스크립트
 └── README.md           # 프로젝트 전체 개요 (현재 파일)
+```
 
 ### 🚀 Current Progress (Project Status)
 
@@ -62,3 +57,4 @@ DLthon/
 - **Run Analysis**:
   ```bash
   python src/eda_runner.py
+  ```

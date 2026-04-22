@@ -4,28 +4,29 @@
 
 ---
 
+
 ### 📂 Repository Structure
 
+```text
 DLthon/
 ├── data/               # 데이터셋 (Raw, Processed, Synthetic)
 │   ├── train.csv       # 원본 학습 데이터 (4,000건 미만)
-│   ├── baseline.csv    # 증강(x1.3) 및 합성데이터(1k)가 포함된 최종 학습셋
+│   ├── baseline.csv    # 증강 및 합성데이터가 포함된 최종 학습셋
 │   └── submission.csv  # 추론 결과 제출 템플릿
-├── docs/               # 프로젝트 가이드라인 및 전략 문서
+├── docs/               # 가이드라인 및 전략 문서
 │   ├── DLThon.md       # 대회 규칙 및 평가 지표 정의
-│   ├── eda.md          # 6개 카테고리, 13개 세부 분석 지표 설계안
-│   ├── strategy.md     # EDA 기반 전처리·증강·합성 데이터 생성 전략 보고서
-│   ├── model_plan.md   # [NEW] 베이스라인 모델 아키텍처 및 학습 계획서
-│   └── implementation_plan.md # 프로젝트 로드맵 및 구조 계획
-├── notebooks/          # 분석 및 실험용 Interactive Notebook
-│   ├── train_eda.ipynb # 13개 지표 시각화 및 통계 분석 메인 노트북
-│   └── model.ipynb     # [NEW] 베이스라인 모델 학습, 평가 및 추론 노트북
+│   ├── eda.md          # EDA 설계안
+│   ├── strategy.md     # 데이터 전략 보고서
+│   ├── model_plan.md   # 모델 아키텍처 및 학습 계획서
+├── notebooks/          # Interactive Notebook
+│   ├── train_eda.ipynb # EDA 시각화 노트북
+│   └── model.ipynb     # 모델 학습 및 추론 노트북
 ├── reports/            # 분석 결과물 및 검증 리포트
-│   ├── eda_results.txt # 텍스트 기반 상세 EDA 수치 결과
-│   └── eda_code_check.md # 코드-문서 간 정합성 최종 검증 보고서
-├── src/                # 모듈화된 소스 코드 및 유틸리티
-│   └── eda_runner.py   # 헤드리스 환경용 EDA 분석 실행 스크립트
-└── README.md           # 프로젝트 전체 개요 (현재 파일)
+│   ├── eda_results.txt # EDA 상세 수치 결과
+│   └── eda_code_check.md # 정합성 검증 보고서
+├── src/                # 모듈화된 소스 코드
+│   └── eda_runner.py   # EDA 분석 실행 스크립트
+└── README.md           # 프로젝트 전체 개요
 
 ---
 

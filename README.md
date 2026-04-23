@@ -41,6 +41,9 @@ DLthon/
 │   ├── build_final_dataset.py # Train/Val 셋 병합 및 Hold-out 밸런싱 스크립트
 │   └── extract_correct.py # 테스트 데이터에서 정답 셋을 별도로 추출하는 포렌식 로직
 └── README.md           # 프로젝트 전체 개요
+```
+
+
 ### 🚀 Current Progress (Project Status)
 
 1. **데이터 분석 (EDA) 완료 ✅**
